@@ -1,55 +1,46 @@
 <div align="center">
 
 # Muhammad Hanzallah
-### Blue Team · SOC Analyst in the making
 
-Detection, log analysis, and incident response. BS Data Science @ UET Lahore 🇵🇰
+**Blue Team · SOC Analyst in the making**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-hanzallah--io-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/hanzallah-io)
-[![SOC Lab](https://img.shields.io/badge/Flagship-soc--blue--team--lab-2ea44f?logo=github)](https://github.com/hanzallah-io/soc-blue-team-lab)
-![Location](https://img.shields.io/badge/Lahore-Pakistan-555)
+Detection engineering, log analysis, and incident response.
+BS Data Science @ UET Lahore · Lahore, Pakistan 🇵🇰
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-hanzallah--io-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hanzallah-io)
+[![SOC Lab](https://img.shields.io/badge/Flagship-soc--blue--team--lab-2ea44f?style=for-the-badge&logo=github)](https://github.com/hanzallah-io/soc-blue-team-lab)
 
 </div>
 
 ---
 
-## 🏆 Credentials
+## 🛡️ About
 
-| # | Credential | Issuer | Year |
-| - | ---------- | ------ | ---- |
-| 3 | Defensive Security Internship (Certificate + Letter of Experience) | Cyberster | 2026 |
-| 2 | Professional Diploma in Advanced Cybersecurity (incl. CEH module) | PNY Training | 2026 |
-| 1 | CCNA | Cisco | 2025 |
+I build and operate defensive security labs: ingesting logs, tuning detections, triaging alerts, and documenting incident response end to end. My data science background shapes how I work: find the pattern, validate it with data, then write the detection.
 
-<!-- Fix the years above, they're my guesses. Add TryHackMe / LetsDefend / HTB rows if you have them. -->
+```text
+hanzallah-io@github ~ $ whoami
+> Detect. Investigate. Respond. Document.
+```
 
-## 🔬 Projects
+## 🔬 Flagship Project
 
-| Project | What it does | Stack |
-| ------- | ------------ | ----- |
-| [soc-blue-team-lab](https://github.com/hanzallah-io/soc-blue-team-lab) | Home SOC: log ingestion, IDS alerts, documented IR walkthroughs | Wazuh, Suricata, pfSense |
-| *Pi-hole on Proxmox* | Network-wide DNS filtering, documented step by step | Pi-hole, Proxmox |
+### [soc-blue-team-lab](https://github.com/hanzallah-io/soc-blue-team-lab)
+A home SOC environment with centralized log monitoring, network intrusion detection, and documented incident-response walkthroughs.
 
-<!-- Remove the Pi-hole row, or link it once the repo is public. -->
-
-## 🧰 Stack
-
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Wazuh](https://img.shields.io/badge/Wazuh-005571?logo=wazuh&logoColor=white)
 ![Suricata](https://img.shields.io/badge/Suricata-EF3B2D)
 ![pfSense](https://img.shields.io/badge/pfSense-212121?logo=pfsense&logoColor=white)
-![Proxmox](https://img.shields.io/badge/Proxmox-E57000?logo=proxmox&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![Cisco](https://img.shields.io/badge/Cisco-1BA0D7?logo=cisco&logoColor=white)
 
-## 📊 Activity
+## 🏆 Credentials
 
-<p align="center">
-  <img height="160" src="https://streak-stats.demolab.com/?user=hanzallah-io&theme=transparent" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hanzallah-io&layout=compact&hide_border=true" />
-</p>
+| Credential | Issuer |
+| ---------- | ------ |
+| Defensive Security Internship (Batch 2, Jun–Sep 2026) | Cyberster |
+| Professional Diploma in Advanced Cybersecurity (incl. CEH module) | PNY Training |
+| MCSA | PNY Training |
+| CCNA | Cisco |
 
-## 📬 Contact
+## 🧰 Tech Stack
 
-Open to SOC Analyst internships and junior blue team roles.
-[LinkedIn](https://linkedin.com/in/hanzallah-io)
+**Security:** &nbsp;
