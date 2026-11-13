@@ -44,3 +44,27 @@ A home SOC environment with centralized log monitoring, network intrusion detect
 ## 🧰 Tech Stack
 
 **Security:** &nbsp;
+![Wazuh](https://img.shields.io/badge/Wazuh-005571?logo=wazuh&logoColor=white)
+![Suricata](https://img.shields.io/badge/Suricata-EF3B2D)
+![pfSense](https://img.shields.io/badge/pfSense-212121?logo=pfsense&logoColor=white)
+
+**Infrastructure:** &nbsp;
+![Proxmox](https://img.shields.io/badge/Proxmox-E57000?logo=proxmox&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Windows Server](https://img.shields.io/badge/Windows_Server-0078D4?logo=windows&logoColor=white)
+![Cisco](https://img.shields.io/badge/Cisco-1BA0D7?logo=cisco&logoColor=white)
+
+**Languages:** &nbsp;
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+
+## 📊 Activity
+
+<p align="center">
+  <img height="150" alt="GitHub streak" src="https://streak-stats.demolab.com/?user=hanzallah-io&theme=transparent&hide_border=true" />
+</p>
+
+## 📬 Let's Connect
+
+Open to **SOC Analyst internships and junior blue team roles**.
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/hanzallah-io)
