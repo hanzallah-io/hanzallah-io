@@ -3,25 +3,12 @@
 # Muhammad Hanzallah
 
 **Blue Team · SOC Analyst**<br>
-BS Data Science @ UET Lahore · Lahore, Pakistan 🇵🇰
+BS Data Science @ UET Lahore 🇵🇰
 
-</div>
-
-```text
-$ wazuh-control status
-  wazuh-analysisd ........ running
-  ruleset ................ valid
-  alerts fired ........... 0
-```
-
-<div align="center">
-
-**The bug? One field name.** [Read the story →](https://github.com/hanzallah-io/soc-blue-team-lab)
-
-<br>
+*Service running. Ruleset valid. Zero alerts.*<br>
+**One field name was the bug.** [Read the story →](https://github.com/hanzallah-io/soc-blue-team-lab)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-hanzallah--io-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hanzallah-io)
-[![Lab](https://img.shields.io/badge/Read-the_SOC_Lab-2ea44f?style=for-the-badge&logo=github)](https://github.com/hanzallah-io/soc-blue-team-lab)
 
 </div>
 
