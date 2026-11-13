@@ -2,11 +2,15 @@
 
 # Muhammad Hanzallah
 
-**Blue Team · SOC Analyst**
+**Blue Team · SOC Analyst**<br>
 BS Data Science @ UET Lahore · Lahore, Pakistan 🇵🇰
 
-*One of my detection rules ran perfectly and never fired once.*
-*[Here's why →](https://github.com/hanzallah-io/soc-blue-team-lab)*
+<br>
+
+`✅ Service running` `✅ Config valid` `❌ Alerts fired: 0`<br>
+**The bug? One field name.** [Read the story →](https://github.com/hanzallah-io/soc-blue-team-lab)
+
+<br>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-hanzallah--io-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hanzallah-io)
 [![Lab](https://img.shields.io/badge/Read-the_SOC_Lab-2ea44f?style=for-the-badge&logo=github)](https://github.com/hanzallah-io/soc-blue-team-lab)
@@ -15,13 +19,24 @@ BS Data Science @ UET Lahore · Lahore, Pakistan 🇵🇰
 
 ---
 
-## 🔬 Featured: [soc-blue-team-lab](https://github.com/hanzallah-io/soc-blue-team-lab)
+<div align="center">
 
-A multi-VM SOC lab built during a 90-day internship. It follows an attack through the whole pipeline:
+## 🔬 Featured Project
 
-**Telemetry → Detection → Investigation → Threat Intel → Incident Response → Digital Forensics**
+### [SOC Blue Team Lab](https://github.com/hanzallah-io/soc-blue-team-lab)
 
-Inside: a silent detection failure, a broken threat-intel integration, and a firewall that refused to boot. Each one is documented with the fix.
+A multi-VM SOC lab built during a 90-day internship.<br>
+It follows an attack through the full pipeline:
+
+**Telemetry → Detection → Investigation**<br>
+**→ Threat Intel → Incident Response → Forensics**
+
+Inside: a silent detection failure, a broken threat-intel integration,<br>
+and a firewall that refused to boot. Each one is documented with the fix.
+
+</div>
+
+---
 
 ## 🧰 Tools I've Worked With
 
@@ -34,6 +49,8 @@ Inside: a silent detection failure, a broken threat-intel integration, and a fir
 | **Frameworks** | ![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-orange) ![NIST](https://img.shields.io/badge/NIST-SP_800--61-blue) |
 | **Platforms** | ![Kali](https://img.shields.io/badge/Kali-557C94?logo=kalilinux&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D4?logo=windows&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) |
 
+---
+
 ## 🏆 Credentials
 
 | | Credential | Issuer |
@@ -43,8 +60,14 @@ Inside: a silent detection failure, a broken threat-intel integration, and a fir
 | 🪟 | **MCSA** | PNY Training |
 | 🌐 | **CCNA** | Cisco |
 
+---
+
+<div align="center">
+
 ## 📬 Let's Connect
 
 Open to **SOC Analyst internships and junior blue team roles**.
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/hanzallah-io)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hanzallah-io)
+
+</div>
