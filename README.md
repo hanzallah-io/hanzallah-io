@@ -5,9 +5,17 @@
 **Blue Team · SOC Analyst**<br>
 BS Data Science @ UET Lahore · Lahore, Pakistan 🇵🇰
 
-<br>
+</div>
 
-`✅ Service running` `✅ Config valid` `❌ Alerts fired: 0`<br>
+```text
+$ wazuh-control status
+  wazuh-analysisd ........ running
+  ruleset ................ valid
+  alerts fired ........... 0
+```
+
+<div align="center">
+
 **The bug? One field name.** [Read the story →](https://github.com/hanzallah-io/soc-blue-team-lab)
 
 <br>
