@@ -11,6 +11,8 @@ BS Data Science @ UET Lahore 🇵🇰
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-hanzallah--io-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hanzallah-io)
 
 </div>
+
+```text
                  ⢀⠀⢀⠀⡀⡀⠀⠄⠀⠐⠐⠐⠀⠂⠂⠂⠂⠂⠄⠄⠄⢄⠠⢀⠀⡀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⢀⠠⠀⠄⠠⠀⠄⠂⠐⢀⠁⢄⠬⠐⠐⠀⠈⠀⠠⠀⠀⠀⠀⠐⢀⠀⠄⠂⠁⠌⠐⠈⠄⠨⠀⠐⠐⠠⢀⠐⠈⡀⠂⡀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ 
 ⠀⠀⠈⢀⠠⠐⠀⠂⠐⠀⠌⡀⠂⡜⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⠠⠁⠠⠀⢀⠠⡀⡢⣐⣌⣄⣈⢐⢈⠀⠈⢀⠠⠁⡃⠠⠀⠄⠂⠀⠐⠀⠠⠀⢀⠀⠀⠀⠀⠀⠀ 
@@ -27,20 +29,22 @@ BS Data Science @ UET Lahore 🇵🇰
 ⠀⠀⠀⠀⠀⠐⢀⠠⠀⠂⠀⠐⠀⠀⠀⠀⠀⠄⠀⠀⠀⠀⠐⠀⠀⠂⠀⠂⠀⠐⠀⠐⠀⠀⠐⡐⢀⠀⠀⢂⢑⠐⠈⠀⠌⡐⡈⠀⠅⡂⡢⠀⠨⠀⠐⠀⠁⠀
 ⠀⠀⠀⠀⢀⠈⡐⡀⠀⠀⠀⠂⠀⢀⠈⠀⠀⡀⠅⢀⠀⠀⠀⡁⠀⠀⠀⠀⢀⠀⠄⠀⠀⠀⠀⢐⠀⠄⠀⠠⡡⣑⠡⠀⠡⢨⠢⡈⠐⡐⠌⡂⢅⠁⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠐⠀⠀⠀⠂⠀⠀⠀⠀⠀⠄⠀⠐⢀⠀⠀⠄⠀⠀⠀⠀⠁⠀⠀⠀⠀⠀⠀⠀⠀⢈⠀⠄⠀⠨⠢⡡⠐⠈⠠⢃⠂⠅⡀⠡⠊⠀⠀⠀⠀⠀⠀
- • Name: ............................... Muhammad Hanzallah
- • Host: ............................... hanzallah (Proxmox)
- • Location: ........................... Lahore, PK
- • Education: .......................... BS Data Science, UET Lahore
- • Focus: .............................. Blue Team / SOC Analysis
- • Certs: .............................. CCNA, MCSA, CEH (module)
 
- - Projects ────────────────────────────────────────────     
+hanzallah-io@github ───────────────────────────────────
+ • Name: ............................ Muhammad Hanzallah
+ • Host: ............................ hanzallah (Proxmox)
+ • Location: ........................ Lahore, PK
+ • Education: ....................... BS Data Science, UET Lahore
+ • Focus: ........................... Blue Team / SOC Analysis
+ • Certs: ........................... CCNA, MCSA, CEH (module)
+
+ - Projects ────────────────────────────────────────────
  • soc-blue-team-lab ... Wazuh + Suricata + pfSense SOC lab
  • pihole-proxmox ...... Pi-hole + Unbound DNS in a Proxmox LXC
  • phone-streaming ..... Phone screen mirroring on Proxmox (Docker)
 
  - Contact ─────────────────────────────────────────────
- • LinkedIn: ........................... linkedin.com/in/hanzallah-io
+ • LinkedIn: ........................ linkedin.com/in/hanzallah-io
 ```
 
 ---
