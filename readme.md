@@ -71,12 +71,12 @@ Self-hosted infrastructure on a **Proxmox VE** node, used to build, break and do
 
 ## 🏆 Credentials
 
-| | Credential | Issuer | Verify |
-| --- | --- | --- | --- |
-| 🛡️ | **SOC Analyst Internship, Batch 2**: Certificate of Completion & Letter of Experience | Cyberster | [Link](YOUR_CYBERSTER_CERT_URL) |
-| 🎓 | **Professional Diploma in Advanced Cybersecurity** (incl. CEH module) | PNY Training | [Link](YOUR_PNY_CERT_URL) |
-| 🪟 | **MCSA** | PNY Training | [Link](YOUR_MCSA_URL) |
-| 🌐 | **CCNA** | Cisco | [Link](YOUR_CCNA_URL) |
+| | Credential | Issuer | 
+| --- | --- | --- | 
+| 🛡️ | **SOC Analyst Internship, Batch 2**: Certificate of Completion & Letter of Experience | Cyberster | 
+| 🎓 | **Professional Diploma in Advanced Cybersecurity** (incl. CEH module) | PNY Training | 
+| 🪟 | **MCSA** | PNY Training | 
+| 🌐 | **CCNA** | Cisco | 
 
 ---
 
