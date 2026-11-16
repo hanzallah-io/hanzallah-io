@@ -48,7 +48,7 @@ Self-hosted infrastructure on a **Proxmox VE** node, used to build, break and do
 
 | Project | What it does | Stack | Status |
 | --- | --- | --- | --- |
-| [**Pi-hole DNS**](https://github.com/hanzallah-io/YOUR_PIHOLE_REPO) | Network-wide ad/tracker blocking with a local recursive resolver and curated blocklists | Debian LXC · Pi-hole · Unbound · HaGeZi · OISD | ✅ Live |
+| [**Pi-hole DNS**](https://github.com/hanzallah-io/homelab) | Network-wide ad/tracker blocking with a local recursive resolver and curated blocklists | Debian LXC · Pi-hole · Unbound · HaGeZi · OISD | ✅ Live |
 | **Backup & recovery** | 3-2-1 backups of all guests with a documented restore test | Proxmox Backup Server | 🔜 Planned |
 | **Reverse proxy + SSO** | TLS and MFA in front of every self-hosted service | Nginx Proxy Manager · Authelia | 🔜 Planned |
 
