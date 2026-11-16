@@ -11,6 +11,37 @@ BS Data Science @ UET Lahore 🇵🇰
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-hanzallah--io-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hanzallah-io)
 
 </div>
+                 ⢀⠀⢀⠀⡀⡀⠀⠄⠀⠐⠐⠐⠀⠂⠂⠂⠂⠂⠄⠄⠄⢄⠠⢀⠀⡀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⢀⠠⠀⠄⠠⠀⠄⠂⠐⢀⠁⢄⠬⠐⠐⠀⠈⠀⠠⠀⠀⠀⠀⠐⢀⠀⠄⠂⠁⠌⠐⠈⠄⠨⠀⠐⠐⠠⢀⠐⠈⡀⠂⡀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ 
+⠀⠀⠈⢀⠠⠐⠀⠂⠐⠀⠌⡀⠂⡜⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⠠⠁⠠⠀⢀⠠⡀⡢⣐⣌⣄⣈⢐⢈⠀⠈⢀⠠⠁⡃⠠⠀⠄⠂⠀⠐⠀⠠⠀⢀⠀⠀⠀⠀⠀⠀ 
+⠀⠀⢁⠀⠀⡀⠁⠌⠠⢁⢂⠂⠅⡂⠀⠀⠀⠀⠀⠀⠀⠁⠀⠀⠀⠀⢀⠀⢄⢕⢱⢝⣞⣟⣿⣟⣯⣷⣻⢄⢀⢀⠆⡂⠅⠂⡂⡈⠄⠁⠀⠂⠀⠀⠀⡀⠂⠀⠀⠀ 
+⠀⠈⠀⡀⠁⡀⠂⠌⡐⡐⢐⠨⢐⠁⠀⠀⠀⡀⡀⠀⠀⠀⠀⠀⠂⠎⠢⢉⠊⠌⠨⠈⠈⠈⠉⠉⠫⠻⠻⠙⠈⠢⢑⢐⠡⡁⠂⠄⠂⡈⠠⠀⡁⠈⠀⠀
+⠀⠀⠂⠀⠄⠀⠂⢁⠐⡐⢐⠨⠠⠡⡀⠠⢕⢔⠌⠘⠠⢂⠀⠁⠌⢌⢊⠌⡊⡈⠄⡀⠀⠄⠀⡀⡠⡺⣤⠀⢀⠀⠀⠠⢐⠠⠡⠈⠄⠂⠄⢁⠠⠈⢀⠐⠀⠀⠀⠀ 
+⠀⠐⠀⠂⡀⠁⠌⠠⠐⢀⠂⢄⠡⢁⢂⠢⠈⠘⠨⠢⡁⠂⠂⠀⠁⠂⠅⡊⢔⢔⢕⢶⢵⣶⣷⠡⡓⡙⡘⣻⢠⢢⢊⡊⠢⢑⢈⢂⠡⠈⠀⠄⠀⢀⠀⠀⠀
+⠀⡁⢈⠠⠠⢁⠂⡂⡂⡂⠌⠠⠨⡐⡐⢌⠌⡆⡀⡐⠌⠌⠄⠀⠀⠀⠐⠀⠂⠂⡁⡣⡡⡤⡠⠡⢔⢤⢃⢨⢪⠸⡐⡅⡣⠡⠐⡀⢐⠈⠄⠂⢈⠀⠀⡀⠐⠀⠀⠀ 
+⠀⠀⠄⠐⠈⡀⡊⡐⠠⢂⠡⡡⡑⡰⠨⡢⡑⡌⡊⠊⠌⢌⢂⠂⠄⡀⠀⠀⠀⠀⠐⠈⠘⠘⠹⠹⠲⠚⡠⡣⡣⡣⡃⡪⢐⢁⠢⢐⠠⠂⠄⢁⠠⠀⠂⠀⠄
+⠀⠐⠀⡈⠄⠂⠐⢈⠨⠠⢑⠔⢌⠪⡊⡆⠕⠁⠀⠀⠀⠀⠀⠈⠐⠈⠐⠐⠀⠀⠀⠀⠀⠀⡀⠀⠀⡂⠈⠈⠊⠢⠣⠪⡐⡄⡂⡂⢂⠁⡐⠀⠄⠂⢈⠠⠀⠠
+⠀⠀⠁⠀⠀⢀⠁⠄⠂⡁⡂⢌⢐⠑⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠄⠐⠀⠀⠀⠀⠠⠀⠀⠂⠀⠂⢀⠀⠀⠀⠈⠀⠈⠐⠈⠀⠂⠄⢀⠐⠀⠀⠄ 
+⠀⠀⠂⠀⡁⠀⠄⠐⠐⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⠀⠀⠀⠀⢀⠀⠀⡀⠀⠀⡀⠀⠀⠀⠀⠀⠀⢀⠀⠐⠀⠈⠀⠁⢀⠀⢁⠀⠀⠅⠀⠠⠀⠠⠠⢀⠀⠀⠀⡀⠀
+⠀⠐⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⠈⠀⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠂⠀⢀⠈⡀⠀⠀⡐⠠⠀⠂⠀⠄⠠⠀⠀⠅⡂⠀⠀⠡⠀⠨⠂⠅⢂⠄⠀ 
+⠀⠀⠀⠀⠀⠐⢀⠠⠀⠂⠀⠐⠀⠀⠀⠀⠀⠄⠀⠀⠀⠀⠐⠀⠀⠂⠀⠂⠀⠐⠀⠐⠀⠀⠐⡐⢀⠀⠀⢂⢑⠐⠈⠀⠌⡐⡈⠀⠅⡂⡢⠀⠨⠀⠐⠀⠁⠀
+⠀⠀⠀⠀⢀⠈⡐⡀⠀⠀⠀⠂⠀⢀⠈⠀⠀⡀⠅⢀⠀⠀⠀⡁⠀⠀⠀⠀⢀⠀⠄⠀⠀⠀⠀⢐⠀⠄⠀⠠⡡⣑⠡⠀⠡⢨⠢⡈⠐⡐⠌⡂⢅⠁⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠐⠀⠀⠀⠂⠀⠀⠀⠀⠀⠄⠀⠐⢀⠀⠀⠄⠀⠀⠀⠀⠁⠀⠀⠀⠀⠀⠀⠀⠀⢈⠀⠄⠀⠨⠢⡡⠐⠈⠠⢃⠂⠅⡀⠡⠊⠀⠀⠀⠀⠀⠀
+ • Name: ............................... Muhammad Hanzallah
+ • Host: ............................... hanzallah (Proxmox)
+ • Location: ........................... Lahore, PK
+ • Education: .......................... BS Data Science, UET Lahore
+ • Focus: .............................. Blue Team / SOC Analysis
+ • Certs: .............................. CCNA, MCSA, CEH (module)
+
+ - Projects ────────────────────────────────────────────     
+ • soc-blue-team-lab ... Wazuh + Suricata + pfSense SOC lab
+ • pihole-proxmox ...... Pi-hole + Unbound DNS in a Proxmox LXC
+ • phone-streaming ..... Phone screen mirroring on Proxmox (Docker)
+
+ - Contact ─────────────────────────────────────────────
+ • LinkedIn: ........................... linkedin.com/in/hanzallah-io
+```
 
 ---
 
@@ -33,6 +64,13 @@ and a firewall that refused to boot. Each one is documented with the fix.
 
 ---
 
+## 🏠 Homelab
+
+- **Pi-hole on Proxmox**: network-wide DNS filtering in a Debian LXC, Unbound as local recursive resolver, HaGeZi/OISD blocklists, plus a write-up of the RTC/DNSSEC outage and the DNS circular dependency behind it.
+- **Phone streaming**: Docker-based phone screen mirroring/streaming on the same Proxmox node.
+
+---
+
 ## 🧰 Tools I've Worked With
 
 | | |
@@ -42,7 +80,7 @@ and a firewall that refused to boot. Each one is documented with the fix.
 | **Threat Intel** | ![VirusTotal](https://img.shields.io/badge/VirusTotal-394EFF?logo=virustotal&logoColor=white) ![URLhaus](https://img.shields.io/badge/URLhaus-Abuse.ch-orange) ![ANY.RUN](https://img.shields.io/badge/ANY.RUN-00A2FF) ![CyberChef](https://img.shields.io/badge/CyberChef-blue) |
 | **Digital Forensics** | ![Volatility 3](https://img.shields.io/badge/Volatility_3-8A2BE2) ![Autopsy](https://img.shields.io/badge/Autopsy-333) ![LECmd](https://img.shields.io/badge/LECmd-555) <br> Memory · Disk (`.E01`) · Browser artifacts · LNK & USB traces |
 | **Frameworks** | ![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-orange) ![NIST](https://img.shields.io/badge/NIST-SP_800--61-blue) |
-| **Platforms** | ![Kali](https://img.shields.io/badge/Kali-557C94?logo=kalilinux&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D4?logo=windows&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) |
+| **Platforms** | ![Kali](https://img.shields.io/badge/Kali-557C94?logo=kalilinux&logoColor=white) ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?logo=ubuntu&logoColor=white) ![Windows](https://img.shields.io/badge/Windows-0078D4?logo=windows&logoColor=white) ![Proxmox](https://img.shields.io/badge/Proxmox-E57000?logo=proxmox&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) |
 
 ---
 
