@@ -32,11 +32,12 @@ BS Data Science @ UET Lahore 🇵🇰
 
 hanzallah-io@github ───────────────────────────────────
  • Name: ............................ Muhammad Hanzallah
- • Host: ............................ hanzallah (Proxmox)
  • Location: ........................ Lahore, PK
  • Education: ....................... BS Data Science, UET Lahore
  • Focus: ........................... Blue Team / SOC Analysis
+ • Lab: ............................. Proxmox homelab + VirtualBox SOC lab
  • Certs: ........................... CCNA, MCSA, CEH (module)
+ • Currently: ....................... Building toward a SOC Analyst role
 
  - Projects ────────────────────────────────────────────
  • soc-blue-team-lab ... Wazuh + Suricata + pfSense SOC lab
@@ -45,33 +46,38 @@ hanzallah-io@github ────────────────────
 
  - Contact ─────────────────────────────────────────────
  • LinkedIn: ........................ linkedin.com/in/hanzallah-io
+ • Email: ........................... hanzallah.dev@gmail.com
 ```
 
 ---
 
 <div align="center">
+🔬 Featured Project
+SOC Blue Team Lab
 
-## 🔬 Featured Project
+A multi-VM SOC lab built during a 90-day internship.<br> It follows an attack through the full pipeline:
 
-### [SOC Blue Team Lab](https://github.com/hanzallah-io/soc-blue-team-lab)
+Telemetry → Detection → Investigation<br> → Threat Intel → Incident Response → Forensics
 
-A multi-VM SOC lab built during a 90-day internship.<br>
-It follows an attack through the full pipeline:
+90 days · Wazuh · Suricata · pfSense · Volatility 3 · MITRE ATT&CK · NIST SP 800-61
 
-**Telemetry → Detection → Investigation**<br>
-**→ Threat Intel → Incident Response → Forensics**
-
-Inside: a silent detection failure, a broken threat-intel integration,<br>
-and a firewall that refused to boot. Each one is documented with the fix.
+Inside: a silent detection failure, a broken threat-intel integration,<br> and a firewall that refused to boot. Each one is documented with the fix.
 
 </div>
 
 ---
 
 ## 🏠 Homelab
-
-- **Pi-hole on Proxmox**: network-wide DNS filtering in a Debian LXC, Unbound as local recursive resolver, HaGeZi/OISD blocklists, plus a write-up of the RTC/DNSSEC outage and the DNS circular dependency behind it.
-- **Phone streaming**: Docker-based phone screen mirroring/streaming on the same Proxmox node.
+ 
+Self-hosted infrastructure on a **Proxmox VE** node, used to build, break and document real services.
+ 
+| Project | What it does | Stack | Status |
+| --- | --- | --- | --- |
+| [**Pi-hole DNS**](https://github.com/hanzallah-io/YOUR_PIHOLE_REPO) | Network-wide ad/tracker blocking with a local recursive resolver and curated blocklists | Debian LXC · Pi-hole · Unbound · HaGeZi · OISD | ✅ Live |
+| **Backup & recovery** | 3-2-1 backups of all guests with a documented restore test | Proxmox Backup Server | 🔜 Planned |
+| **Reverse proxy + SSO** | TLS and MFA in front of every self-hosted service | Nginx Proxy Manager · Authelia | 🔜 Planned |
+ 
+**Write-up:** the Pi-hole build includes a post-mortem of a DNSSEC outage caused by a dead RTC battery and a DNS circular dependency, with the fix.
 
 ---
 
