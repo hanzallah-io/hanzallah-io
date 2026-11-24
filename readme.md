@@ -42,15 +42,18 @@ and a firewall that refused to boot. Each one is documented with the fix.
 
 ---
 
-## 🏠[Homelab](https://github.com/hanzallah-io/homelab)
+## 🏠 [Homelab](https://github.com/hanzallah-io/homelab)
 
-Self-hosted infrastructure on a **Proxmox VE** node, used to build, break and document real services.
+Self-hosted infrastructure on a **Proxmox VE** node, used to build, break and document real services. Every project covers what I built, what broke, and how I fixed it.
 
 | Project | What it does | Stack | Status |
 | --- | --- | --- | --- |
-| [**Pi-hole DNS**](https://github.com/hanzallah-io/homelab/tree/master/projects/01-proxmox-pihole-unbound) | Network-wide ad/tracker blocking with a local recursive resolver and curated blocklists | Debian LXC · Pi-hole · Unbound · HaGeZi · OISD | ✅ Live |
-| **Backup & recovery** | 3-2-1 backups of all guests with a documented restore test | Proxmox Backup Server | 🔜 Planned |
-| **Reverse proxy + SSO** | TLS and MFA in front of every self-hosted service | Nginx Proxy Manager · Authelia | 🔜 Planned |
+| [**Pi-hole DNS**](https://github.com/hanzallah-io/homelab/tree/master/projects/01-proxmox-pihole-unbound) | Network-wide ad/tracker blocking with a local recursive resolver and curated blocklists | Debian LXC · Pi-hole · Unbound · HaGeZi · OISD | ✅ Documented |
+| [**NAS**](https://github.com/hanzallah-io/homelab/tree/master/projects/02-nas-samba) | Network file storage for the lab and Windows clients | LXC · Samba · LVM | ✅ Documented |
+| [**Backups**](https://github.com/hanzallah-io/homelab/tree/master/projects/03-backups) | Scheduled guest backups to the NAS | Proxmox vzdump | ✅ Documented |
+| [**Reverse proxy + private CA**](https://github.com/hanzallah-io/homelab/tree/master/projects/04-reverse-proxy-local-ca) | Friendly hostnames with TLS from my own certificate authority | Reverse proxy · Private CA | ✅ Documented |
+| [**Remote access**](https://github.com/hanzallah-io/homelab/tree/master/projects/05-remote-access-tailscale) | Reach the home network securely from anywhere without opening ports | Tailscale subnet router | ✅ Documented |
+| **Wazuh agents** | Feed homelab telemetry into the SOC lab | Wazuh | 🔜 Next |
 
 **Write-up:** the Pi-hole build includes a post-mortem of a DNSSEC outage caused by a dead RTC battery and a DNS circular dependency, with the fix.
 
@@ -61,7 +64,7 @@ Self-hosted infrastructure on a **Proxmox VE** node, used to build, break and do
 | | |
 | --- | --- |
 | **SIEM / Detection** | ![Wazuh](https://img.shields.io/badge/Wazuh-005571?logo=wazuh&logoColor=white) ![Suricata](https://img.shields.io/badge/Suricata-EF3B2D) |
-| **Network** | ![pfSense](https://img.shields.io/badge/pfSense-212121?logo=pfsense&logoColor=white) ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?logo=wireshark&logoColor=white) |
+| **Network** | ![pfSense](https://img.shields.io/badge/pfSense-212121?logo=pfsense&logoColor=white) ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?logo=wireshark&logoColor=white) ![Tailscale](https://img.shields.io/badge/Tailscale-242424) |
 | **Threat Intel** | ![VirusTotal](https://img.shields.io/badge/VirusTotal-394EFF?logo=virustotal&logoColor=white) ![URLhaus](https://img.shields.io/badge/URLhaus-Abuse.ch-orange) ![ANY.RUN](https://img.shields.io/badge/ANY.RUN-00A2FF) ![CyberChef](https://img.shields.io/badge/CyberChef-blue) |
 | **Digital Forensics** | ![Volatility 3](https://img.shields.io/badge/Volatility_3-8A2BE2) ![Autopsy](https://img.shields.io/badge/Autopsy-333) ![LECmd](https://img.shields.io/badge/LECmd-555) <br> Memory · Disk (`.E01`) · Browser artifacts · LNK & USB traces |
 | **Frameworks** | ![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-orange) ![NIST](https://img.shields.io/badge/NIST-SP_800--61-blue) |
@@ -71,12 +74,12 @@ Self-hosted infrastructure on a **Proxmox VE** node, used to build, break and do
 
 ## 🏆 Credentials
 
-| | Credential | Issuer | 
-| --- | --- | --- | 
-| 🛡️ | **SOC Analyst Internship, Batch 2**: Certificate of Completion & Letter of Experience | Cyberster | 
-| 🎓 | **Professional Diploma in Advanced Cybersecurity** (incl. CEH module) | PNY Training | 
-| 🪟 | **MCSA** | PNY Training | 
-| 🌐 | **CCNA** | Cisco | 
+| | Credential | Issuer |
+| --- | --- | --- |
+| 🛡️ | **SOC Analyst Internship, Batch 2**: Certificate of Completion & Letter of Experience | Cyberster |
+| 🎓 | **Professional Diploma in Advanced Cybersecurity** (incl. CEH module) | PNY Training |
+| 🪟 | **MCSA** | PNY Training |
+| 🌐 | **CCNA** | Cisco |
 
 ---
 
