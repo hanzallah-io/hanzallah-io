@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muhammad Hanzallah | Blue Team / SOC Analyst</title>
+<meta name="description" content="Blue Team / SOC Analyst in Lahore. Wazuh SIEM, Suricata IDS, pfSense, Volatility 3, MITRE ATT&CK. SOC lab and Proxmox homelab write-ups.">
+<meta property="og:title" content="Muhammad Hanzallah | Blue Team / SOC Analyst">
+<meta property="og:description" content="SOC lab, DFIR write-ups and a Proxmox homelab, each documented with what broke and how it was fixed.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://hanzallah-io.github.io/">
+<link rel="canonical" href="https://hanzallah-io.github.io/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%9B%A1%EF%B8%8F%3C/text%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#eef1f5; --surface:#ffffff; --ink:#14213d; --muted:#556072;
+  --line:#cbd3df; --accent:#0b57d0; --ok:#1a7f4b; --log-bg:#14213d; --log-ink:#dbe4f3; --log-dim:#8fa0bd;
+  --mono:ui-monospace,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#0e1522; --surface:#151e2e; --ink:#e6ecf5; --muted:#9aa8bf; --line:#27344a; --accent:#7aa8ff; --ok:#5fd09a; --log-bg:#0a1019; --log-ink:#dbe4f3; --log-dim:#6f819e}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-underline-offset:3px}
+a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:2px}
+.wrap{max-width:880px;margin:0 auto;padding:0 24px}
+header.top{border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;justify-content:space-between;align-items:center;padding-top:18px;padding-bottom:18px;gap:16px;flex-wrap:wrap}
+header.top strong{font-size:.95rem}
+nav a{margin-left:20px;font-size:.95rem;color:var(--muted);text-decoration:none}
+nav a:hover{color:var(--accent);text-decoration:underline}
+
+.hero{padding:72px 0 56px}
+h1{font-size:clamp(2.4rem,7vw,4rem);line-height:1.05;letter-spacing:-.03em;margin:0 0 14px;font-weight:750}
+.role{font-size:1.2rem;color:var(--muted);margin:0 0 28px}
+.lede{max-width:60ch;margin:0 0 32px;font-size:1.1rem}
+.actions{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:11px 20px;border-radius:6px;font-weight:600;text-decoration:none;font-size:.97rem;border:1.5px solid var(--ink);color:var(--ink)}
+.btn.primary{background:var(--ink);color:var(--bg)}
+.btn:hover{border-color:var(--accent);color:var(--accent)}
+.btn.primary:hover{background:var(--accent);border-color:var(--accent);color:#fff}
+
+.log{background:var(--log-bg);color:var(--log-ink);font:.88rem/1.75 var(--mono);border-radius:8px;padding:20px 22px;margin-top:48px;overflow-x:auto}
+.log div{white-space:nowrap}
+.log .t{color:var(--log-dim)}
+.log .ok{color:#6ee7a8}
+.log .stage{color:#fff}
+.log .cursor{display:inline-block;width:.6em;height:1.05em;background:var(--log-ink);vertical-align:text-bottom;animation:blink 1.1s steps(1) infinite}
+@keyframes blink{50%{opacity:0}}
+@media (prefers-reduced-motion:reduce){.log .cursor{animation:none}html{scroll-behavior:auto}}
+
+figure.card{margin:0 0 56px}
+figure.card img{display:block;width:100%;height:auto;border-radius:14px}
+
+section{padding:56px 0;border-top:1px solid var(--line)}
+h2{font-size:1.7rem;letter-spacing:-.02em;margin:0 0 20px}
+h3{font-size:1.25rem;margin:0 0 6px}
+p{margin:0 0 14px}
+.muted{color:var(--muted)}
+
+.feature{background:var(--surface);border:1px solid var(--line);border-left:5px solid var(--accent);border-radius:6px;padding:28px}
+.pipeline{font-weight:650;margin:16px 0}
+.stack{font-family:var(--mono);font-size:.88rem;color:var(--muted)}
+
+.table-wrap{overflow-x:auto;margin-top:20px}
+table{width:100%;border-collapse:collapse;min-width:620px;font-size:.96rem}
+th,td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:650;color:var(--muted);font-size:.9rem;border-bottom:2px solid var(--line)}
+td:first-child{font-weight:600;white-space:nowrap}
+.done{color:var(--ok);font-weight:600;white-space:nowrap}
+.next{color:var(--muted);white-space:nowrap}
+
+dl.tools{margin:0;display:grid;grid-template-columns:max-content 1fr;gap:0 28px}
+dl.tools dt{font-weight:650;padding:14px 0;border-bottom:1px solid var(--line)}
+dl.tools dd{margin:0;padding:14px 0;border-bottom:1px solid var(--line);color:var(--muted)}
+@media (max-width:600px){dl.tools{grid-template-columns:1fr}dl.tools dt{border-bottom:0;padding-bottom:2px}}
+
+ul.creds{list-style:none;margin:0;padding:0}
+ul.creds li{display:flex;justify-content:space-between;gap:20px;padding:14px 0;border-bottom:1px solid var(--line);flex-wrap:wrap}
+ul.creds .issuer{color:var(--muted)}
+
+footer{border-top:1px solid var(--line);padding:32px 0 56px;color:var(--muted);font-size:.92rem}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <strong>Muhammad Hanzallah</strong>
+    <nav aria-label="Primary">
+      <a href="#projects">Projects</a>
+      <a href="#tools">Tools</a>
+      <a href="#credentials">Credentials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<div class="wrap">
+
+  <div class="hero">
+    <h1>Muhammad Hanzallah</h1>
+    <p class="role">Blue Team / SOC Analyst · BS Data Science, UET Lahore</p>
+    <p class="lede">I build SOC labs and home infrastructure, break them on purpose, and write up what went wrong and how I fixed it. Open to SOC Analyst internships and junior blue team roles.</p>
+    <div class="actions">
+      <a class="btn primary" href="https://github.com/hanzallah-io/soc-blue-team-lab">Read the SOC lab</a>
+      <a class="btn" href="https://github.com/hanzallah-io">GitHub profile</a>
+      <a class="btn" href="https://linkedin.com/in/hanzallah-io">LinkedIn</a>
+    </div>
+
+    <div class="log" role="img" aria-label="Pipeline of the SOC lab: telemetry, detection, investigation, threat intel, incident response, forensics. Service running, ruleset valid, zero alerts.">
+      <div><span class="t">stage 1</span> <span class="stage">telemetry</span> <span class="ok">ok</span></div>
+      <div><span class="t">stage 2</span> <span class="stage">detection</span> <span class="ok">ok</span></div>
+      <div><span class="t">stage 3</span> <span class="stage">investigation</span> <span class="ok">ok</span></div>
+      <div><span class="t">stage 4</span> <span class="stage">threat intel</span> <span class="ok">ok</span></div>
+      <div><span class="t">stage 5</span> <span class="stage">incident response</span> <span class="ok">ok</span></div>
+      <div><span class="t">stage 6</span> <span class="stage">forensics</span> <span class="ok">ok</span></div>
+      <div><span class="t">status</span> service running. ruleset valid. zero alerts.<span class="cursor"></span></div>
+    </div>
+  </div>
+
+  <figure class="card">
+    <img src="info.svg" width="900" height="480" alt="Profile card: Muhammad Hanzallah, Lahore, BS Data Science at UET Lahore, focus on Blue Team and SOC analysis, certified CCNA, MCSA and CEH module. Projects: SOC blue team lab, Pi-hole, NAS, backups, reverse proxy with private CA, remote access." loading="lazy">
+  </figure>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <article class="feature">
+      <h3><a href="https://github.com/hanzallah-io/soc-blue-team-lab">SOC Blue Team Lab</a></h3>
+      <p class="muted">A multi-VM SOC lab built during a 90-day internship. It follows an attack through the full pipeline.</p>
+      <p class="pipeline">Telemetry → Detection → Investigation → Threat Intel → Incident Response → Forensics</p>
+      <p>Inside: a silent detection failure where one field name was the bug, a broken threat-intel integration, and a firewall that refused to boot. Each one is documented with the fix.</p>
+      <p class="stack">Wazuh · Suricata · pfSense · Volatility 3 · MITRE ATT&amp;CK · NIST SP 800-61</p>
+    </article>
+
+    <h3 style="margin-top:44px"><a href="https://github.com/hanzallah-io/homelab">Homelab</a></h3>
+    <p class="muted">Self-hosted infrastructure on a Proxmox VE node. Every project covers what I built, what broke, and how I fixed it.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Project</th><th>What it does</th><th>Stack</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td><a href="https://github.com/hanzallah-io/homelab/tree/master/projects/01-proxmox-pihole-unbound">Pi-hole DNS</a></td><td>Network-wide ad and tracker blocking with a local recursive resolver and curated blocklists</td><td>Debian LXC, Pi-hole, Unbound, HaGeZi, OISD</td><td class="done">Documented</td></tr>
+          <tr><td><a href="https://github.com/hanzallah-io/homelab/tree/master/projects/02-nas-samba">NAS</a></td><td>Network file storage for the lab and Windows clients</td><td>LXC, Samba, LVM</td><td class="done">Documented</td></tr>
+          <tr><td><a href="https://github.com/hanzallah-io/homelab/tree/master/projects/03-backups">Backups</a></td><td>Scheduled guest backups to the NAS</td><td>Proxmox vzdump</td><td class="done">Documented</td></tr>
+          <tr><td><a href="https://github.com/hanzallah-io/homelab/tree/master/projects/04-reverse-proxy-local-ca">Reverse proxy and private CA</a></td><td>Friendly hostnames with TLS from my own certificate authority</td><td>Reverse proxy, private CA</td><td class="done">Documented</td></tr>
+          <tr><td><a href="https://github.com/hanzallah-io/homelab/tree/master/projects/05-remote-access-tailscale">Remote access</a></td><td>Reach the home network securely from anywhere without opening ports</td><td>Tailscale subnet router</td><td class="done">Documented</td></tr>
+          <tr><td>Wazuh agents</td><td>Feed homelab telemetry into the SOC lab</td><td>Wazuh</td><td class="next">Next</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="margin-top:18px">The Pi-hole write-up includes a post-mortem of a DNSSEC outage caused by a dead RTC battery and a DNS circular dependency, with the fix.</p>
+  </section>
+
+  <section id="tools">
+    <h2>Tools I’ve worked with</h2>
+    <dl class="tools">
+      <dt>SIEM and detection</dt><dd>Wazuh, Suricata</dd>
+      <dt>Network</dt><dd>pfSense, Wireshark, Tailscale</dd>
+      <dt>Threat intel</dt><dd>VirusTotal, URLhaus, ANY.RUN, CyberChef</dd>
+      <dt>Digital forensics</dt><dd>Volatility 3, Autopsy, LECmd. Memory, disk (.E01), browser artifacts, LNK and USB traces.</dd>
+      <dt>Frameworks</dt><dd>MITRE ATT&amp;CK, NIST SP 800-61</dd>
+      <dt>Platforms</dt><dd>Kali, Ubuntu, Windows, Proxmox, Docker, Python</dd>
+    </dl>
+  </section>
+
+  <section id="credentials">
+    <h2>Credentials</h2>
+    <ul class="creds">
+      <li><span>SOC Analyst Internship, Batch 2: Certificate of Completion and Letter of Experience</span><span class="issuer">Cyberster</span></li>
+      <li><span>Professional Diploma in Advanced Cybersecurity (incl. CEH module)</span><span class="issuer">PNY Training</span></li>
+      <li><span>MCSA</span><span class="issuer">PNY Training</span></li>
+      <li><span>CCNA</span><span class="issuer">Cisco</span></li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Open to SOC Analyst internships and junior blue team roles.</p>
+    <div class="actions">
+      <a class="btn primary" href="mailto:hanzallah.dev@gmail.com">Email me</a>
+      <a class="btn" href="https://linkedin.com/in/hanzallah-io">LinkedIn</a>
+      <a class="btn" href="https://github.com/hanzallah-io">GitHub</a>
+    </div>
+  </section>
+
+</div>
+</main>
+
+<footer>
+  <div class="wrap">Lahore, Pakistan · © 2026 Muhammad Hanzallah</div>
+</footer>
+
+</body>
+</html>
